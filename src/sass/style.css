@@ -4,28 +4,26 @@
   width: 80%;
   max-width: 500px;
   margin: auto;
-  box-shadow: 7px 10px 7px 0px rgb(219, 219, 219);
+  box-shadow: 5px 10px 7px 0px rgb(50, 50, 50);
   border-radius: 10px;
-  background: #d3e4cd;
+  border: 1px solid black;
   transform: translateY(0);
   -webkit-animation: slide 1000ms;
           animation: slide 1000ms;
+  background-color: rgba(255, 255, 255, 0.242);
 }
 .firstNameForm:hover {
-  box-shadow: 9px 12px 7px 0px rgb(170, 170, 170);
+  box-shadow: 8px 12px 7px 0px rgb(50, 50, 50);
 }
 .firstNameForm input {
   text-align: center;
   margin: 30px auto;
   border: 1px solid black;
 }
-.firstNameForm input:hover {
-  background: #f7f5f2;
-}
 
 @-webkit-keyframes slide {
   0% {
-    transform: translateY(50px);
+    transform: translateY(30px);
   }
   100% {
     transform: translateY(0);
@@ -34,7 +32,7 @@
 
 @keyframes slide {
   0% {
-    transform: translateY(50px);
+    transform: translateY(30px);
   }
   100% {
     transform: translateY(0);
@@ -44,7 +42,7 @@
   display: flex;
   align-items: center;
   margin: 30px auto;
-  background: #99a799;
+  background: rgba(162, 22, 106, 0.479);
   border: none;
   border-radius: 10px;
   padding: 5px 10px;
@@ -55,6 +53,7 @@
 }
 .buttonSubmit:hover {
   transform: scale(1.1);
+  background-color: rgb(162, 22, 106);
 }
 
 .studies {
@@ -98,8 +97,8 @@
 }
 .welcome {
   color: white;
-  font-size: 20px;
-  margin-left: 20px;
+  font-size: 22px;
+  text-align: center;
 }
 
 .infos {
@@ -201,7 +200,7 @@
 .conclusion {
   margin-top: 20px;
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 @media all and (max-width: 768px) {
@@ -243,6 +242,17 @@
   width: 45%;
   height: 300px;
   transform: skewX(-30deg) rotate(-10deg);
+  border-radius: 50%;
+}
+.background__4 {
+  position: absolute;
+  left: 10%;
+  top: 3%;
+  background: rgb(162, 22, 107);
+  background: radial-gradient(circle, rgb(162, 22, 107) 0%, rgb(255, 227, 187) 50%, rgba(255, 255, 255, 0) 100%);
+  width: 85%;
+  height: 250px;
+  transform: skewX(-20deg) rotate(-10deg);
   border-radius: 50%;
 }
 

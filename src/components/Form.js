@@ -8,7 +8,11 @@ const Form = ({ firtsName, setFirstName }) => {
     }
     return (
         <div>
+            <div className='background'>
+                <div className='background__4'></div>
+            </div> 
             <div className="writeFirstname">Pour en savoir plus, merci d'indiquer votre prénom</div>
+            
             <form onSubmit={onSubmit} className='firstNameForm'>
                 <input type='text' name='firstnameForm' placeholder='Votre Prénom' defaultValue=""></input>
                 <button className='buttonSubmit' type="submit">Enregistrer</button>

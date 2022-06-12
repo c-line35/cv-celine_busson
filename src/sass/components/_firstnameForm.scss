@@ -1,4 +1,4 @@
-$colorPrimaryLight: #d3e4cd;
+
 
 .firstNameForm{
     display: flex;
@@ -6,30 +6,27 @@ $colorPrimaryLight: #d3e4cd;
     width: 80%;
     max-width: 500px;
     margin: auto;
-    box-shadow: 7px 10px 7px 0px rgb(219, 219, 219);
+    box-shadow: 5px 10px 7px 0px rgb(50, 50, 50);
     border-radius: 10px;
-    background: $colorPrimaryLight;
-    
+    border: 1px solid black;
     transform: translateY(0);
     animation: slide 1000ms;
+    background-color: rgba(255, 255, 255, 0.242);
     &:hover{
-        box-shadow: 9px 12px 7px 0px rgb(170, 170, 170);
+        box-shadow: 8px 12px 7px 0px rgb(50, 50, 50);
     }
 
     input{
         text-align: center;
         margin: 30px auto;
         border: 1px solid black;
-        &:hover{
-            background:#f7f5f2;
-        }
 
     }
 
 }
 
 @keyframes slide{
-    0% {transform: translateY(50px)}
+    0% {transform: translateY(30px)}
 
     100% {transform: translateY(0)}
 }

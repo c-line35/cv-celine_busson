@@ -1,7 +1,7 @@
 import React from 'react';
 import Main from '../components/Main';
 import  Form  from '../components/Form';
-import { NavLink } from 'react-router-dom'
+
 
 const MainPage = ({ firstName, setFirstName}) => {
     return (

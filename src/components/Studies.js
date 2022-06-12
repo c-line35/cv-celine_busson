@@ -2,16 +2,16 @@ import React from 'react';
 import { Collapse } from 'antd';
 const { Panel } = Collapse;
 import { DoubleRightOutlined, BranchesOutlined } from '@ant-design/icons';
-
+import { motion } from 'framer-motion';
 
 const Studies = () => {
     return (
         <div className='studies'>
-             <div className='background'>
+            <div className='background'>
                 <div className='background__2'></div>
             </div>
             <h2 className='studies__title'>Mon parcours</h2>
-            <div className='studies__parcours'>
+            <div className='studies__parcours'>  
                 <Collapse accordion>
                     <Panel header="Scolarité" key="1">
                         <p><DoubleRightOutlined /> Baccalauréat scientifique obtenu en 2002 au lycée Bréquigny à Rennes.</p>
@@ -33,10 +33,23 @@ const Studies = () => {
                         <p><BranchesOutlined /> Notions en SEO et Accessibilité.</p>
                         <p><BranchesOutlined /> Notions en matière de sécurité.</p>
                     </Panel>
+                    <Panel header="Autres expériences" key="4">
+                        <p><DoubleRightOutlined /> Pompier volontaire de 2002 à 2007 sur la commune du Guichen (35).</p>
+                        <p><DoubleRightOutlined /> Vice-présidente d'une association culturelle sur la commune de Guichen pendant 2 ans.</p>
+                       
+                    </Panel>
                 </Collapse>
-            </div>
+            </div>       
         </div>
     )
 };
 
-export default Studies;
+export default Studies;          
+                     
+                   
+                 
+              
+              
+                   
+               
+   

@@ -32,6 +32,19 @@
         transform: skewX(-30deg) rotate(-10deg);
         border-radius: 50% ;
     }
+    &__4{
+        position:absolute;
+        left: 10%;
+        top: 3%;
+        background: rgb(162,22,107);
+background: radial-gradient(circle, rgba(162,22,107,1) 0%, rgba(255,227,187,1) 50%, rgba(255,255,255,0) 100%);
+        width: 85%;
+        height:250px;
+        transform: skewX(-20deg) rotate(-10deg);
+        border-radius: 50%;
+     
+       
+    }
   
 }
 @media all and (max-width:768px){

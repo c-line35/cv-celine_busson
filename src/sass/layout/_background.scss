@@ -2,7 +2,7 @@
     z-index: -1;
     position: absolute;
     height:100%;
-    width: 100%;
+    width: 90%;
     &__1{
         background: rgb(162,22,107);
         background: linear-gradient(90deg, rgba(162,22,107,1) 0%, rgba(255,227,187,1) 100%);
@@ -14,7 +14,6 @@
     &__2{
         position:absolute;
         top: 3%;
-        
         background: rgb(162,22,107);
         background: linear-gradient(200deg, rgba(162,22,107,1) 0%, rgba(255,227,187,1) 100%);
         width: 20%;
@@ -23,5 +22,26 @@
         transform: skewX(-30deg) rotate(90deg);
 
     }
+    &__3{
+        position:absolute;
+        left:35%;
+        background: rgb(162,22,107);
+        background: linear-gradient(200deg, rgba(162,22,107,1) 0%, rgba(255,227,187,1) 100%);
+        width: 45%;
+        height:300px;
+        transform: skewX(-30deg) rotate(-10deg);
+        border-radius: 50% ;
+    }
   
+}
+@media all and (max-width:768px){
+    .background{
+        &__3{
+            top: 10%;
+            left: 0;
+            width: 70%;
+            transform: rotate(10deg);
+            border-radius: 50%;
+        }
+    }
 }

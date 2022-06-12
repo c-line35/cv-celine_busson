@@ -1,9 +1,11 @@
 import React from 'react';
 
 const Projet = ({projet}) => {
-    console.log(projet)
     return (
         <div className='projet'>
+            <h2 classname ="projet__title">
+                {projet.title}
+            </h2>
             <div className="projet__content">
                 {projet.content.map((content, index)=>(
                     <p key={index}>{content}</p>

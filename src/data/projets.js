@@ -1,6 +1,7 @@
 let projets = [
     {
         id:1,
+        tab:"HTML et CSS",
         title:"Transformer une maquette en site web avec HTML et CSS",
         content:[
             "Apprentissage de HTML et CSS en réalisant l'intégration d'une page à partir d'une maquette.",
@@ -12,6 +13,7 @@ let projets = [
     },
     {
         id:2,
+        tab: "animations CSS et SASS",
         title:"Dynamiser une page web avec des animations CSS",
         content:[
             "Apprentissage de Sass.", 
@@ -24,6 +26,7 @@ let projets = [
     },
     {
         id:3,
+        tab:"JavaScript",
         title:"Construire un site e-commerce en JavaScript",
         content:[
             "Apprentissage JavaScript.",
@@ -36,6 +39,7 @@ let projets = [
     },
     {
         id:4,
+        tab:"API REST",
         title:"Construire une API sécurisée",
         content:[
             "Apprentissage Node Js, Express JS.",
@@ -49,6 +53,7 @@ let projets = [
     },
     {
         id:5,
+        tab:"Réseau social",
         title:"PROJET EN COURS: Créer un réseau social d'entreprise",
         content:[
             "Crétation d'un projet complet (backend et frontend)",
@@ -66,12 +71,13 @@ let projets = [
     },
     {
         id:6,
-        title:"PROJET PERSONNEL: Site de l'ASSFAM 53 ",
+        tab:'Projet personnel',
+        title:"Site de l'ASSFAM 53 ",
         content:[
            "Création d'un site pour l'Association des familles d'accueil de la Mayenne.",
-           "Après plusieurs rencontres avec l'équipe de l'association, intégration du frontend du site.",
+           "Après plusieurs rencontres avec l'équipe de l'association: intégration du frontend du site.",
            "Ce projet ne fait que commencer car le but final de l'association est d'alimenter ce site de façon autonome.",
-           "Projet d'inscritpion et d'authentification de chaque membre pour avoir un accès à un contenu plus complet.",
+           "Projet d'inscription et d'authentification de chaque membre pour avoir un accès à un contenu plus complet.",
            "Projet de paiement de cotisation en ligne.",
            "Projet de listing de livres.",
            "Projet de page de petites annonces."
@@ -82,12 +88,13 @@ let projets = [
     },
     {
         id:7,
+        tab: "Projet personnel",
         title:"PROJET PERSONNEL: ce CV",
         content:[
            "Utilisation de React",
            "Utilisation de ANT Design"
     ],
-        repoGit:"https://github.com/c-line35/CV_react.git",
+        repoGit:"https://github.com/c-line35/cv-celine_busson.git",
         pageGit:false,
         image:false
     }

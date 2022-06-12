@@ -47,3 +47,17 @@
         }
     }
 }
+
+@media all and (max-width:768px){
+    .infos{
+        flex-direction: column;
+        color: black;
+        &__general{
+            width: 100%;
+        }
+        &__text{
+            width: 100%;
+            justify-content: center;
+        }
+    }
+}

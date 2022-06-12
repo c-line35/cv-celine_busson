@@ -22,7 +22,7 @@ console.log(projets)
       </Space>
       <Tabs tabPosition='left'>
         {projets.map(projet=>(
-        <TabPane tab={projet.title} key={projet.id}>
+        <TabPane tab={projet.tab} key={projet.id}>
           <Projet projet={projet} />
         </TabPane>))}
       </Tabs>

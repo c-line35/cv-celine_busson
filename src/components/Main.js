@@ -2,6 +2,7 @@ import React from 'react';
 
 import FirstChapter from './FirstChapter';
 import Projets from './Projets';
+import Skills from './Skills';
 import Studies from './Studies';
 
 const Main = ({ firstName, setFirstName }) => {
@@ -14,6 +15,7 @@ const Main = ({ firstName, setFirstName }) => {
             <FirstChapter firstName={firstName} />
             <Studies />
             <Projets />
+            <Skills />
         </div>
     );
 };

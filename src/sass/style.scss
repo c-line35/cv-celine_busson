@@ -1,0 +1,27 @@
+@import './components/firstnameForm';
+@import './components/buttonSubmit';
+@import './components/studies';
+@import './components/firstChapter';
+@import './components/projets';
+@import './layout/background';
+@import './utils/variables';
+
+
+*{
+    box-sizing: border-box;
+   
+}
+body{
+    margin: 0;
+}
+
+
+.writeFirstname{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+
+}

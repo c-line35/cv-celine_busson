@@ -54,20 +54,16 @@ let projets = [
     {
         id:5,
         tab:"Réseau social",
-        title:"PROJET EN COURS: Créer un réseau social d'entreprise",
+        title:"Créer un réseau social d'entreprise",
         content:[
             "Crétation d'un projet complet (backend et frontend)",
             "Utilisation du Framework React, utilisation de la librairie ANT Design",
             "Création d'une API REST sécurisée avec node js et express js.",
             "Utilisation d'une base de données avec MySQL."
         ],
-        repoGit:false,
+        repoGit:"https://github.com/c-line35/projet_ocr_7.git",
         pageGit:false,
-        image:[
-            "./assets/schema-prisma.jpg",
-            "./assets/controller.jpg",
-            "./assets/antd.jpg"
-        ]
+        image:false
     },
     {
         id:6,

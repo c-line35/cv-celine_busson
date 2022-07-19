@@ -1,4 +1,4 @@
-@import './components/firstnameForm';
+@import './components/nav';
 @import './components/buttonSubmit';
 @import './components/studies';
 @import './components/firstChapter';
@@ -16,13 +16,44 @@ body{
     margin: 0;
 }
 
+h2{
+  font-size: 40px;
+  transform: translateX(50px) ;
+  opacity: 0;
+  animation: animTitle 700ms 300ms forwards;
+}
+h3{
+  transform: translateX(20px) ;
+  opacity: 0;
+  animation: animTitle 700ms 500ms forwards;
+}
+.page{
+  width: 90%;
+  margin-top: -90px;
+}
 
-.writeFirstname{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-size: 20px;
+@keyframes animTitle{
+  100%{
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
 
+.nav{
+  display: flex;
+  width: 10%;
+  margin-left: 90%;
+}
+
+@media all and (max-width:768px){
+  h2{
+    font-size: 25px;
+  }
+  .page{
+    width: 90%;
+  }
+  .nav{
+    width: 15%;
+    margin-left: 85%;
+  }
 }

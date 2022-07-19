@@ -1,17 +1,16 @@
-import { useState} from 'react';
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import 'antd/dist/antd.min.css'
-import MainPage from './pages/MainPage';
+import Main from './pages/Main';
 
 
 function App() {
 
-  const [firstName, setFirstName] = useState()
 
   return (
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<MainPage firstName={firstName} setFirstName={setFirstName}/>}/>
+          <Route path="/" element={<Main/>}/>
         </Routes>   
       </BrowserRouter>
       );

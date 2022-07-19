@@ -2,13 +2,16 @@
     z-index: -1;
     position: absolute;
     height:100%;
-    width: 90%;
+    width: 80%;
+    
     &__1{
         background: rgb(162,22,107);
         background: linear-gradient(90deg, rgba(162,22,107,1) 0%, rgba(255,227,187,1) 100%);
         width: 100%;
-        height: 240px;
-        transform: skewX(30deg);
+        height: 170px;
+        transform: skewX(-30deg);
+        opacity: 0;
+        animation: animContent 700ms 500ms forwards;
 
     }
     &__2{
@@ -46,6 +49,13 @@ background: radial-gradient(circle, rgba(162,22,107,1) 0%, rgba(255,227,187,1) 5
        
     }
   
+}
+
+@keyframes animContent{
+  
+    100%{
+        opacity: 1;
+    }
 }
 @media all and (max-width:768px){
     .background{

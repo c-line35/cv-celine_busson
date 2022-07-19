@@ -1,12 +1,12 @@
 import React from 'react';
 import { Collapse } from 'antd';
 const { Panel } = Collapse;
-import { DoubleRightOutlined, BranchesOutlined } from '@ant-design/icons';
-import { motion } from 'framer-motion';
+import { DoubleRightOutlined } from '@ant-design/icons';
+
 
 const Studies = () => {
     return (
-        <div className='studies'>
+        <div className='studies' id="studies">
             <div className='background'>
                 <div className='background__2'></div>
             </div>
@@ -23,15 +23,6 @@ const Studies = () => {
                         <p><DoubleRightOutlined /> Infirmière à L'Hôpital à domicile 35 de 2007 à 2009.</p>
                         <p><DoubleRightOutlined /> Infirmière spécialisée en hémodialyse à l'AUB Santé de 2009 à 2013.</p>
                         <p><DoubleRightOutlined /> Création d'un cabinet d'infirmière libérale à Mordelles (35) de 2014 à mars 2022.</p>
-                    </Panel>
-                    <Panel header="Ma reconversion professionnelle" key="3">
-                        <p><BranchesOutlined /> Apprentissage <strong>Html 5</strong>, <strong>Css 3</strong>, <strong>Sass</strong> (notions au niveau des animations Css).</p>
-                        <p><BranchesOutlined /> Apprentissage <strong>javaSript </strong>et <strong>React</strong> .</p>
-                        <p><BranchesOutlined /> Apprentissage de <strong>Node JS</strong>, <strong>Express JS</strong>.</p>
-                        <p><BranchesOutlined /> Réalisation d'<strong>API REST</strong>.</p>
-                        <p><BranchesOutlined /> Utilisation de  bases de données relationnelles (<strong>MySQL</strong>, ORM Prisma) et non relationnelle(<strong>MongoDB</strong>, ORM Mongoose).</p>
-                        <p><BranchesOutlined /> Notions en SEO et Accessibilité.</p>
-                        <p><BranchesOutlined /> Notions en matière de sécurité.</p>
                     </Panel>
                     <Panel header="Autres expériences" key="4">
                         <p><DoubleRightOutlined /> Pompier volontaire de 2002 à 2007 sur la commune du Guichen (35).</p>

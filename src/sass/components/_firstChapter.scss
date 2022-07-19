@@ -1,17 +1,8 @@
-.welcome{
-    color: white;
-    font-size: 22px;
-    text-align: center;
-
-}
-
-
 .infos{
     display: flex;
     justify-content: space-between;
-    width: 70%;
-    min-width: 600px;
-    margin-top: 50px;
+    width: 80%;
+    padding-top: -50px;
     margin-left: 30px;
     box-shadow: 7px 10px 7px 0px rgba(65, 64, 64, 0.445);
     color: white;
@@ -19,6 +10,8 @@
         width: 30%;
         height: 200px;
         object-fit: cover;
+        transform: scale(0);
+        animation: animPhoto 1500ms  forwards;
         }
     &__general{
         display: flex;
@@ -47,13 +40,30 @@
         }
     }
 }
+@keyframes animPhoto{
+  
+    100%{
+       transform: scale(1);
+    }
+}
 
 @media all and (max-width:768px){
     .infos{
         flex-direction: column;
         color: black;
+        align-items: center ;
+        img{
+            width: 80%;
+            height: 125px;
+        }
         &__general{
             width: 100%;
+            &__name{
+                font-size: 15px;
+            }
+            &__job{
+                font-size: 15px;
+            }
         }
         &__text{
             width: 100%;

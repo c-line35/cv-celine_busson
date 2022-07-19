@@ -1,10 +1,13 @@
 import React from 'react';
 
-const FirstChapter = ( { firstName } ) => {
-    return (
-        <div className='firstChapter'> 
-            <div className='welcome'>Bienvenu { firstName } !</div>
+const FirstChapter = () => {
+    return ( 
+    <div>
+    <div className='background'>
+                   <div className='background__1'></div>
+              </div>
             <div className='infos'>
+               
                 <img src='./assets/P1002089.JPG' alt='céline busson' />
                 <div className='infos__general'>
                     <div className='infos__general__name'>Céline Busson</div>
@@ -18,7 +21,7 @@ const FirstChapter = ( { firstName } ) => {
                     </ul>
                 </div>
             </div>
-        </div>
+            </div>
     );
 };
 

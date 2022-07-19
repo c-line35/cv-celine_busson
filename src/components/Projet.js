@@ -3,9 +3,9 @@ import React from 'react';
 const Projet = ({projet}) => {
     return (
         <div className='projet'>
-            <h2 classname ="projet__title">
+            <h3 classname ="projet__title">
                 {projet.title}
-            </h2>
+            </h3>
             <div className="projet__content">
                 {projet.content.map((content, index)=>(
                     <p key={index}>{content}</p>

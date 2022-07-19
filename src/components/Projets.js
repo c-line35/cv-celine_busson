@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Radio, Space, Tabs } from 'antd';
+import React from 'react';
+import { Space, Tabs } from 'antd';
 const { TabPane } = Tabs;
 import projets from "../data/projets";
 import Projet from './Projet';
@@ -9,9 +9,9 @@ const Projets = () => {
 
     return ( 
     
-        <div className='projets'>
+        <div className='projets' id="projects">
             <div className="projets__content">
-                <div className='projets__content__title'>Mes réalisations</div>
+                <h2>Mes projets</h2>
                
                   <Space
                     style={{

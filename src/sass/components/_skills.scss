@@ -1,17 +1,33 @@
 .skills{
     display: flex;
+    flex-direction: column;
     margin: 50px auto;
     width: 90%;
-    &__title{
-        width: 50%;
-        font-size: 40px;
-      
-    }
+    padding-top: 50px;
     &__list{
         display: flex;
-        flex-direction: column;
-        width: 50%;
+        margin: auto;
+        justify-content: space-between;
+        width: 90%;
         margin-top: 30px;
+        opacity: 0;
+        animation: animContent 700ms 300ms forwards;
+        &__hard{
+            border: 1px black solid;
+            width: 60%;
+            border-radius: 30px;
+            padding: 20px;
+            background-color: #fafafa5e;
+            box-shadow: 7px 10px 7px 0px rgba(65, 64, 64, 0.445);
+        }
+        &__soft{
+            border: 1px black solid;
+            width: 30%;
+            border-radius: 30px;
+            padding: 20px;
+            background-color: #fafafa5e;
+            box-shadow: 7px 10px 7px 0px rgba(65, 64, 64, 0.445);
+        }
     }
 }
 .conclusion{
@@ -19,11 +35,25 @@
     text-align: center;
     font-size: 15px;
 }
+
+@keyframes animContent{
+  
+    100%{
+        opacity: 1;
+    }
+}
 @media all and (max-width:768px){
     .skills{
-        flex-direction: column;
-        &__list{
+        &__list{ 
+            flex-direction: column;
             align-items: center;
+            &__hard{
+                width: 99%;
+                margin-bottom: 10px;
+            }
+            &__soft{
+                width:99%;
+            }
         }
     }
 }

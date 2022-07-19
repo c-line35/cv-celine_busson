@@ -5,20 +5,29 @@ import Skills from '../components/Skills';
 import Studies from '../components/Studies';
 import 'antd/dist/antd.variable.min.css';
 import { ConfigProvider, Anchor, BackTop } from 'antd';
+import { ToTopOutlined } from '@ant-design/icons';
 const { Link } = Anchor;
-
-
 
 
 ConfigProvider.config({ theme: { 
     primaryColor: "rgb(162, 22, 106)"
 } });
 
+const style = {
+  height: 20,
+  width: 20,
+  lineHeight: '20px',
+  borderRadius: 10,
+  backgroundColor: "rgba(255,227,187,1)",
+  color: '#fff',
+  textAlign: 'center',
+  fontSize: 14,
+};
+
 const Main = () => {
   
     return (
         <ConfigProvider>
-           <BackTop />
     <div className='nav'>
           <Anchor
           style={{
@@ -35,6 +44,9 @@ const Main = () => {
             <Studies />      
             <Projets />
           </div>
+            <BackTop >
+             <div style={style}><ToTopOutlined/></div>
+            </BackTop>
   
         <p className='conclusion'>Consciente que mon apprentissage ne fait que commencer, je suis prête à accepter tous les défis pour accroître mes compétences dans mon nouveau métier.</p>
             <p className='conclusion'>Pour plus d'informations à mon sujet, contactez moi:<br/>

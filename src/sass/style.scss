@@ -44,16 +44,24 @@ h3{
   width: 10%;
   margin-left: 90%;
 }
-
+@mixin heart-linear-gradient{
+  background: linear-gradient(180deg, rgba(162,22,107,1), rgba(255,227,187,1));
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
 @media all and (max-width:768px){
   h2{
     font-size: 25px;
+    margin-left: 25px;
+    @include heart-linear-gradient;
   }
   .page{
-    width: 90%;
+    width: 100%;
+    background: #eeeeee;
   }
   .nav{
-    width: 15%;
-    margin-left: 85%;
+   display:none;
   }
 }

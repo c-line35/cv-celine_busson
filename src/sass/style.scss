@@ -20,14 +20,10 @@ h2{
   font-size: 40px;
   transform: translateX(50px) ;
   opacity: 0;
-  animation: animTitle 700ms 300ms forwards;
+  animation: animTitle 700ms 1000ms forwards;
 }
-h3{
-  transform: translateX(20px) ;
-  opacity: 0;
-  animation: animTitle 700ms 500ms forwards;
-}
-.page{
+
+main{
   width: 90%;
   margin-top: -90px;
 }
@@ -57,7 +53,7 @@ h3{
     margin-left: 25px;
     @include heart-linear-gradient;
   }
-  .page{
+  main{
     width: 100%;
     background: #eeeeee;
   }

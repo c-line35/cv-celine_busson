@@ -38,12 +38,12 @@ const Main = () => {
             <Link href="#projects" title="Projets" />
           </Anchor>
       </div>
-          <div className='page'>
+          <main className='page'>
             <FirstChapter />
             <Skills />    
             <Studies />      
             <Projets />
-          </div>
+        </main>
             <BackTop >
              <div style={style}><ToTopOutlined/></div>
             </BackTop>

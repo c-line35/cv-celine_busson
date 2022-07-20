@@ -14,11 +14,9 @@ const FirstChapter = () => {
                     <span>Développeuse Web</span>
                 </div>
                 <div className='infos__content__text'>
-                    <ul>
-                        <li>38 ans</li>
-                        <li>Mariée, 3 enfants</li>
-                        <li>Région rennaise</li>
-                    </ul>
+                        <div>38 ans</div>
+                        <div>Mariée, 3 enfants</div>
+                        <div>Région rennaise</div>
                 </div>
             </div>
         </div>

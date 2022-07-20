@@ -16,7 +16,10 @@ const Studies = () => {
                     <Panel header="Scolarité" key="1">
                         <p><DoubleRightOutlined /> Baccalauréat scientifique obtenu en 2002 au lycée Bréquigny à Rennes.</p>
                         <p><DoubleRightOutlined /> Diplôme d'état infirmier obtenu en 2006 obtenu à l'IFSI Pontchaillou à Rennes.</p>
-                        <p><DoubleRightOutlined /> Formation de développeur web avec OpenClassRooms de décembre 2021 à juin 2022.</p>
+                        <p><DoubleRightOutlined /> 
+                            Formation de développeur web avec OpenClassRooms de décembre 2021 à juin 2022.<br/>
+                            Tous mes projets ont été validés, je suis en attente de validation du diplôme Développeur web (RNCP niveau 5) par le jury final.
+                        </p>
                     </Panel>
                     <Panel header="Parcours professionnel dans le milieu de la santé" key="2">
                         <p><DoubleRightOutlined /> Infirmière dans un EPHAD en 2006.</p>

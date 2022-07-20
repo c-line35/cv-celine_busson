@@ -1,11 +1,13 @@
 @import './components/nav';
-@import './components/buttonSubmit';
 @import './components/studies';
-@import './components/firstChapter';
+@import './components/header';
 @import './components/projets';
 @import './components/skills';
+@import './components/conclusion';
+@import './components/footer';
 @import './layout/background';
-@import './utils/variables';
+@import './utils/mixins';
+
 
 
 *{
@@ -27,7 +29,10 @@ main{
   width: 90%;
   margin-top: -90px;
 }
-
+li, ul{
+  list-style-type: none;
+  margin: 0;
+}
 @keyframes animTitle{
   100%{
       opacity: 1;
@@ -40,18 +45,15 @@ main{
   width: 10%;
   margin-left: 90%;
 }
-@mixin heart-linear-gradient{
-  background: linear-gradient(180deg, rgba(162,22,107,1), rgba(255,227,187,1));
-  background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
+.backTop{
+  display: none;
 }
+
 @media all and (max-width:768px){
   h2{
     font-size: 25px;
     margin-left: 25px;
-    @include heart-linear-gradient;
+    @include title-linear-gradient;
   }
   main{
     width: 100%;
@@ -59,5 +61,8 @@ main{
   }
   .nav{
    display:none;
+  }
+  .backTop{
+    display: flex;
   }
 }

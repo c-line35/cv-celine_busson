@@ -1,5 +1,5 @@
 import React from 'react';
-import { BranchesOutlined } from '@ant-design/icons';
+import { BranchesOutlined, CheckOutlined } from '@ant-design/icons';
 
 const Skills = () => {
     return (
@@ -22,17 +22,17 @@ const Skills = () => {
                     </div>
                     <div className='skills__list__soft'>
                         <h3>Soft Skills</h3>
-                        <ul>
-                            <li>Compétences relationnelles:</li>
-                                <ul>
+                        <div>
+                            <li><CheckOutlined />Compétences relationnelles:</li>
+                                <div className="relation">
                                     <li>Ecoute</li>
                                     <li>Communication</li>
                                     <li>Empathie</li>
-                                </ul>
-                            <li>Autonomie</li>
-                            <li>Adaptation</li>
-                            <li>Persévérence</li> 
-                        </ul>
+                                </div>
+                            <li><CheckOutlined />Autonomie</li>
+                            <li><CheckOutlined />Adaptation</li>
+                            <li><CheckOutlined />Persévérence</li> 
+                        </div>
                     </div> 
                 </div>
             </div>

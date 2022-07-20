@@ -1,0 +1,7 @@
+@mixin title-linear-gradient{
+    background: linear-gradient(180deg, rgba(162,22,107,1), rgba(255,227,187,1));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }

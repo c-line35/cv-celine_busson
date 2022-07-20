@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FirstChapter = () => {
+const Header = () => {
     return ( 
     <div>
         <div className='background'>
@@ -24,4 +24,4 @@ const FirstChapter = () => {
     );
 };
 
-export default FirstChapter;
+export default Header;

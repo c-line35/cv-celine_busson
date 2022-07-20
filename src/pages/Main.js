@@ -1,11 +1,11 @@
 import React from 'react';
-import FirstChapter from '../components/FirstChapter';
+import Header from '../components/Header';
 import Projets from '../components/Projets';
 import Skills from '../components/Skills';
 import Studies from '../components/Studies';
 import 'antd/dist/antd.variable.min.css';
 import { ConfigProvider, Anchor, BackTop } from 'antd';
-import { ToTopOutlined } from '@ant-design/icons';
+import { ToTopOutlined, MailOutlined, PhoneOutlined } from '@ant-design/icons';
 const { Link } = Anchor;
 
 
@@ -35,26 +35,31 @@ const Main = () => {
             }}>
             <Link href="#skills" title="Compétences" />
             <Link href="#studies" title="Parcours" />
-            <Link href="#projects" title="Projets" />
+            <Link href="#projects" title="Réalisations" />
           </Anchor>
       </div>
-          <main className='page'>
-            <FirstChapter />
+          <main>
+            <Header />
             <Skills />    
             <Studies />      
             <Projets />
         </main>
+        <div className='backTop'>
             <BackTop >
              <div style={style}><ToTopOutlined/></div>
             </BackTop>
+          </div>
   
-        <p className='conclusion'>Consciente que mon apprentissage ne fait que commencer, je suis prête à accepter tous les défis pour accroître mes compétences dans mon nouveau métier.</p>
-            <p className='conclusion'>Pour plus d'informations à mon sujet, contactez moi:<br/>
-                <a href ='mailto:bussonceline@sfr.fr'>bussonceline@sfr.fr</a><br/>06.25.28.70.60
-            </p>   
-  
-            
-                   
+        <div className='conclusion'>
+          <div className='background__4'></div>
+          <p>Forte des mes expériences passées et des projets que j'ai effectués, je suis prête à accepter tous les défis pour continuer à m'améliorer.</p>
+        </div>
+        
+        <footer> 
+          <h4>Contact:</h4>      
+          <a href ='mailto:bussonceline@sfr.fr'><MailOutlined /> bussonceline@sfr.fr</a><br/>
+          <a href="tel:+33625287060"><PhoneOutlined /> 06.25.28.70.60</a>
+        </footer> 
          </ConfigProvider>            
        );
 };

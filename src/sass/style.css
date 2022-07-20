@@ -257,8 +257,19 @@ nav {
 footer {
   background: #eeeeee;
   padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
+.upload {
+  margin: 10px;
+}
+
+@media all and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+  }
+}
 .background {
   z-index: -1;
   position: absolute;

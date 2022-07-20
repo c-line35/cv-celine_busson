@@ -31,7 +31,7 @@ const Skills = () => {
                                 </div>
                             <li><CheckOutlined />Autonomie</li>
                             <li><CheckOutlined />Adaptation</li>
-                            <li><CheckOutlined />Persévérence</li> 
+                            <li><CheckOutlined />Persévérance</li> 
                         </div>
                     </div> 
                 </div>

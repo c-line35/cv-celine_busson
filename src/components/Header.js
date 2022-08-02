@@ -13,11 +13,8 @@ const Header = () => {
                     <span><strong>Céline Busson</strong></span>
                     <span>Développeuse Web</span>
                 </div>
-                <div className='infos__content__text'>
-                        <div>38 ans</div>
-                        <div>Mariée, 3 enfants</div>
-                        <div>Région rennaise</div>
-                </div>
+                
+              
             </div>
         </div>
     </div>

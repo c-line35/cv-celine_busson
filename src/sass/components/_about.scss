@@ -1,0 +1,16 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    p{
+        text-align: justify;
+        opacity: 0;
+        animation: animAbout 1000ms 1500ms forwards;
+    }
+}
+@keyframes animAbout{
+    100%{ 
+        opacity: 1;
+    }
+}

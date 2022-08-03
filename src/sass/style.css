@@ -10,8 +10,8 @@ nav {
   display: flex;
   flex-direction: column;
   width: 90%;
-  margin: auto;
-  padding-top: 50px;
+  margin: auto 50px;
+  padding: 50px 0 80px 0;
 }
 .studies__parcours {
   opacity: 0;
@@ -33,6 +33,7 @@ nav {
 @media all and (max-width: 768px) {
   .studies {
     width: 100%;
+    margin: 0;
   }
 }
 .infos {
@@ -42,6 +43,7 @@ nav {
   margin-left: 30px;
   box-shadow: 7px 10px 7px 0px rgba(65, 64, 64, 0.445);
   color: white;
+  font-size: 35px;
 }
 .infos img {
   width: 30%;
@@ -55,24 +57,12 @@ nav {
 }
 .infos__content {
   display: flex;
-  justify-content: space-between;
-  padding-bottom: 10px;
-  width: 100%;
-  margin-left: 20px;
-}
-.infos__content__general {
-  display: flex;
   flex-direction: column;
-}
-.infos__content__general span {
-  font-size: 30px;
+  width: 60%;
   text-align: center;
 }
-.infos__content__text {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  margin-bottom: 7%;
+.infos__content div {
+  margin-bottom: 10px;
 }
 
 @-webkit-keyframes animPhoto {
@@ -103,15 +93,8 @@ nav {
     margin: 20px 0;
   }
   .infos__content {
-    flex-direction: column;
-  }
-  .infos__content__general span {
+    margin: 40px auto;
     font-size: 20px;
-  }
-  .infos__content__text {
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 10px;
   }
 }
 @-webkit-keyframes animInfo {
@@ -131,7 +114,7 @@ nav {
 }
 .projets__content {
   width: 90%;
-  margin: 50px auto;
+  margin: auto;
 }
 .projets__content__mobile {
   display: none;
@@ -171,7 +154,7 @@ nav {
 }
 .skills__list__hard {
   border: 1px black solid;
-  width: 63%;
+  width: 48%;
   border-radius: 30px;
   padding: 20px;
   background-color: rgba(250, 250, 250, 0.368627451);
@@ -183,7 +166,7 @@ nav {
 }
 .skills__list__soft {
   border: 1px black solid;
-  width: 33%;
+  width: 48%;
   border-radius: 30px;
   padding: 20px;
   background-color: rgba(250, 250, 250, 0.368627451);
@@ -194,14 +177,9 @@ nav {
           animation: animSkills 1000ms 1500ms ease-out forwards;
 }
 
-.relation {
-  margin-left: 15%;
-}
-
-.conclusion {
-  margin-top: 20px;
-  text-align: center;
-  font-size: 15px;
+.experiences {
+  margin-left: 30px;
+  margin-bottom: 20px;
 }
 
 @-webkit-keyframes animSkills {
@@ -254,9 +232,34 @@ nav {
   }
 }
 
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+.about p {
+  text-align: justify;
+  opacity: 0;
+  -webkit-animation: animAbout 1000ms 1500ms forwards;
+          animation: animAbout 1000ms 1500ms forwards;
+}
+
+@-webkit-keyframes animAbout {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes animAbout {
+  100% {
+    opacity: 1;
+  }
+}
 footer {
   background: #eeeeee;
   padding-left: 10px;
+  padding-top: 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -268,6 +271,7 @@ footer {
 @media all and (max-width: 768px) {
   footer {
     flex-direction: column;
+    padding-top: 0;
   }
 }
 .background {
@@ -301,18 +305,6 @@ footer {
   width: 45%;
   height: 300px;
   transform: skewX(-30deg) rotate(-10deg);
-  border-radius: 50%;
-}
-.background__4 {
-  position: absolute;
-  z-index: -1;
-  top: -3%;
-  left: 30%;
-  opacity: 0.9;
-  background: radial-gradient(circle, rgb(162, 22, 107) 0%, rgb(255, 227, 187) 100%);
-  width: 40%;
-  height: 100px;
-  transform: skewX(-10deg) rotate(5deg);
   border-radius: 50%;
 }
 

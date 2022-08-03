@@ -32,18 +32,6 @@
         transform: skewX(-30deg) rotate(-10deg);
         border-radius: 50% ;
     }
-    &__4{
-        position:absolute;
-        z-index: -1;
-        top: -3%;
-        left: 30%;
-        opacity: 0.9;
-        background: radial-gradient(circle, rgba(162,22,107,1) 0%, rgba(255,227,187,1) 100%);
-        width: 40%;
-        height:100px;
-        transform: skewX(-10deg) rotate(5deg);
-        border-radius: 50%;
-    }
 }
 
 @keyframes animContent{

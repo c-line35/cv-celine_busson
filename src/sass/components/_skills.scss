@@ -12,7 +12,7 @@
         margin-top: 30px;
         &__hard{
             border: 1px black solid;
-            width: 63%;
+            width: 48%;
             border-radius: 30px;
             padding: 20px;
             background-color: #fafafa5e;
@@ -23,7 +23,7 @@
         }
         &__soft{
             border: 1px black solid;
-            width: 33%;
+            width: 48%;
             border-radius: 30px;
             padding: 20px;
             background-color: #fafafa5e;
@@ -34,14 +34,11 @@
         }
     }
 }
-.relation{
-    margin-left: 15%;
+.experiences{
+    margin-left: 30px;
+    margin-bottom: 20px;
 }
-.conclusion{
-    margin-top: 20px;
-    text-align: center;
-    font-size: 15px;
-}
+
 
 @keyframes animSkills{
     100%{ 

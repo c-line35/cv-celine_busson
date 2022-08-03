@@ -12,26 +12,30 @@ const Skills = () => {
                 <div className='skills__list'>
                     <div className='skills__list__hard'>
                     <h3>Hard Skills</h3>
-                    <p><BranchesOutlined /> Apprentissage <strong>Html 5</strong>, <strong>Css 3</strong>, <strong>Sass</strong> (notions au niveau des animations Css).</p>
-                        <p><BranchesOutlined /> Apprentissage <strong>javaSript </strong>et <strong>React</strong> .</p>
-                        <p><BranchesOutlined /> Apprentissage de <strong>Node JS</strong>, <strong>Express JS</strong>.</p>
+                    <p><BranchesOutlined /><strong>Html 5</strong>, <strong>Css 3</strong>, <strong>Sass</strong> (y compris animations Css).</p>
+                        <p><BranchesOutlined /> <strong>javaSript </strong>et <strong>React</strong> .</p>
+                        <p><BranchesOutlined /> <strong>Node JS</strong>, <strong>Express JS</strong>.</p>
                         <p><BranchesOutlined /> Réalisation d'<strong>API REST</strong>.</p>
                         <p><BranchesOutlined /> Utilisation de  bases de données relationnelles (<strong>MySQL</strong>, ORM Prisma) et non relationnelle (<strong>MongoDB</strong>, ORM Mongoose).</p>
-                        <p><BranchesOutlined /> Notions en SEO et Accessibilité.</p>
-                        <p><BranchesOutlined /> Notions en matière de sécurité.</p>
+                        <p><BranchesOutlined /> SEO et Accessibilité.</p>
+                        <p><BranchesOutlined /> Sécurité.</p>
                     </div>
                     <div className='skills__list__soft'>
                         <h3>Soft Skills</h3>
                         <div>
-                            <li><CheckOutlined />Compétences relationnelles:</li>
-                                <div className="relation">
-                                    <li>Ecoute</li>
-                                    <li>Communication</li>
-                                    <li>Empathie</li>
+                            <li>Mes 15 ans d'expérience comme infirmière m'ont apportés des compétences relationnelles:</li>
+                                <div className='experiences'>
+                                    <li><CheckOutlined />Ecoute</li>
+                                    <li><CheckOutlined />Communication</li>
+                                    <li><CheckOutlined />Empathie</li>
                                 </div>
-                            <li><CheckOutlined />Autonomie</li>
-                            <li><CheckOutlined />Adaptation</li>
-                            <li><CheckOutlined />Persévérance</li> 
+                            <li>Dont 8 ans en en exercice libérale durant lesquelles j'ai dû faire preuve de:</li>
+                                <div className='experiences'>
+                                    <li><CheckOutlined />Autonomie</li>
+                                    <li><CheckOutlined />Adaptabilité</li>
+                                    <li><CheckOutlined />Créativité</li>
+                                </div>
+                            
                         </div>
                     </div> 
                 </div>

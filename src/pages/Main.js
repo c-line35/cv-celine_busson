@@ -3,9 +3,10 @@ import Header from '../components/Header';
 import Projets from '../components/Projets';
 import Skills from '../components/Skills';
 import Studies from '../components/Studies';
+import About from '../components/About';
 import 'antd/dist/antd.variable.min.css';
 import { ConfigProvider, Anchor, BackTop, Button } from 'antd';
-import { ToTopOutlined, MailOutlined, PhoneOutlined } from '@ant-design/icons';
+import { ToTopOutlined, MailOutlined, PhoneOutlined, LinkedinOutlined, GithubOutlined } from '@ant-design/icons';
 const { Link } = Anchor;
 
 
@@ -33,37 +34,36 @@ const Main = () => {
           style={{
             width: '100%'
             }}>
+            <Link href="#about" title="A propos" />
             <Link href="#skills" title="Compétences" />
-            <Link href="#studies" title="Parcours" />
             <Link href="#projects" title="Réalisations" />
+            <Link href="#studies" title="Parcours" />
           </Anchor>
       </div>
           <main>
             <Header />
+            <About />
             <Skills />    
-            <Studies />      
             <Projets />
+            <Studies />      
         </main>
         <div className='backTop'>
             <BackTop >
              <div style={style}><ToTopOutlined/></div>
             </BackTop>
           </div>
-  
-        <div className='conclusion'>
-          <div className='background__4'></div>
-          <p>Forte des mes expériences passées et des projets que j'ai effectués, je suis prête à accepter tous les défis pour continuer à m'améliorer.</p>
-        </div>
-        
+
         <footer> 
           <div className='contact'>
             <h4>Contact:</h4>      
             <a href ='mailto:bussonceline@sfr.fr'><MailOutlined /> bussonceline@sfr.fr</a><br/>
-            <a href="tel:+33625287060"><PhoneOutlined /> 06.25.28.70.60</a>
+            <a href="tel:+33625287060"><PhoneOutlined /> 06.25.28.70.60</a><br/>
+            <a href ="https://linkedin.com/in/céline-busson-devweb" target="blank"><LinkedinOutlined /> Profil Linkedin</a><br/>
+            <a href ="https://github.com/c-line35" target="blank"><GithubOutlined /> GitHub</a>
           </div>
           <div className='upload'>
             <Button type='primary'>
-              <a href='./assets/cvweb.pdf' target="blank">Télécharger ce CV en PDF</a>
+              <a href='./assets/cv-celine-busson.pdf' target="blank" alt="cv-pdf">Télécharger ce CV en PDF</a>
             </Button>
           </div>
         </footer> 

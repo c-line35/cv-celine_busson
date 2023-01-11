@@ -10,7 +10,7 @@ let projets = [
             "Intégrer la page de façon responsive."
         ],
         repoGit:"https://github.com/c-line35/projet-2.git",
-        pageGit:"https://c-line35.github.io/projet-2/",
+       
         image:false
     },
      {
@@ -25,7 +25,6 @@ let projets = [
             "Mettre en place des effets CSS graphiques avancés."
         ],
         repoGit:"https://github.com/c-line35/projet_3_openclassrooms.git",
-        pageGit:"https://c-line35.github.io/projet_3_openclassrooms/",
         image:false
     },
     {
@@ -84,7 +83,7 @@ let projets = [
            "Création d'un site pour l'Association des familles d'accueil de la Mayenne.",
            "Après plusieurs rencontres avec l'équipe de l'association: intégration du frontend du site.",
            "Ce projet ne fait que commencer car le but final de l'association est d'alimenter ce site de façon autonome.",
-           "Projet d'inscription et d'authentification de chaque membre pour avoir un accès à un contenu plus complet.",
+           "Création d'un tableau de bord réservé aux administrateurs pour la gestion des adhérents",
            "Projet de paiement de cotisation en ligne.",
            "Projet de listing de livres.",
            "Projet de page de petites annonces."

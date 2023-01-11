@@ -15,7 +15,9 @@ const Skills = () => {
                     <p><BranchesOutlined /><strong>Html 5</strong>, <strong>Css 3</strong>, <strong>Sass</strong> (y compris animations Css).</p>
                         <p><BranchesOutlined /> <strong>javaSript </strong>et <strong>React</strong> .</p>
                         <p><BranchesOutlined /> <strong>Node JS</strong>, <strong>Express JS</strong>.</p>
-                        <p><BranchesOutlined /> Réalisation d'<strong>API REST</strong>.</p>
+                        <p><BranchesOutlined /> <strong>Java </strong>et <strong>Spring</strong>.</p>
+                        <p><BranchesOutlined /> <strong>Angular</strong>.</p>
+                        <p><BranchesOutlined /> Réalisation d'<strong>API REST (avec Node JS et Java Spring)</strong>.</p>
                         <p><BranchesOutlined /> Utilisation de  bases de données relationnelles (<strong>MySQL</strong>, ORM Prisma) et non relationnelle (<strong>MongoDB</strong>, ORM Mongoose).</p>
                         <p><BranchesOutlined /> SEO et Accessibilité.</p>
                         <p><BranchesOutlined /> Sécurité.</p>

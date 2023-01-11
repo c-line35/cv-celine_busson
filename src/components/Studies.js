@@ -29,6 +29,9 @@ const Studies = () => {
                     </Panel>
                     <Panel header="Scolarité" key="4">
                         <p><DoubleRightOutlined /> 
+                            Formation Java, Spring, Angular dans le cadre d'une POEI en lien avec Pôle emploi (octobre 2022 à janvier 2023).<br/>
+                        </p>
+                        <p><DoubleRightOutlined /> 
                             Formation de développeur web avec OpenClassRooms de décembre 2021 à juin 2022.<br/>
                             Tous mes projets ont été validés, je suis en attente de validation du diplôme Développeur web (RNCP niveau 5) par le jury final.
                         </p>

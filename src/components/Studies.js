@@ -1,7 +1,7 @@
 import React from 'react';
 import { Collapse } from 'antd';
 const { Panel } = Collapse;
-import { DoubleRightOutlined } from '@ant-design/icons';
+import { DoubleRightOutlined, BranchesOutlined } from '@ant-design/icons';
 
 
 const Studies = () => {
@@ -14,9 +14,9 @@ const Studies = () => {
             <div className='studies__parcours'>  
                 <Collapse accordion>
                 <Panel header="Digital Systems Engineer" key="1">
-                        <p><DoubleRightOutlined />Digital Systems Engineer dans une ESN.
-                        <li><CheckOutlined />Mission pour une compagnie d'assurance: développement html, CSS, Java.</li>
-                        <li><CheckOutlined />Mission pour un opératuer télécom: device management, data analyse.</li>
+                        <p><DoubleRightOutlined />Digital Systems Engineer dans une ESN:<br/><br/>
+                        <li><BranchesOutlined />Mission pour une compagnie d'assurance: développement html, CSS, Java.</li>
+                        <li><BranchesOutlined />Mission pour un opératuer télécom: device management, data analyse.</li>
                         </p>
                     </Panel>
                     <Panel header="Développeuse web" key="2">

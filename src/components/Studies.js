@@ -14,7 +14,7 @@ const Studies = () => {
             <div className='studies__parcours'>  
                 <Collapse accordion>
                 <Panel header="Digital Systems Engineer" key="1">
-                        <p><DoubleRightOutlined />Digital Systems Engineer dans une ESN:<br/><br/>
+                        <p><DoubleRightOutlined />Digital Systems Engineer dans une ESN depuis février 2023<br/><br/>
                         <li><BranchesOutlined />Mission pour une compagnie d'assurance: développement html, CSS, Java.</li>
                         <li><BranchesOutlined />Mission pour un opérateur télécom: device management, data analyse.</li>
                         </p>
@@ -23,6 +23,7 @@ const Studies = () => {
                         <p><DoubleRightOutlined /> Développeuse web bénévole dans une association regroupant des assistants familiaux, depuis avril 2022.</p>
                     </Panel>
                     <Panel header="Parcours professionnel dans le milieu de la santé" key="3">
+                        <p><DoubleRightOutlined /> Aide soignante: diverses missions d'intérim en EHPAD, été 2022.</p>
                         <p><DoubleRightOutlined /> Création d'un cabinet d'infirmière libérale à Mordelles (35) de 2014 à mars 2022.</p>
                         <p><DoubleRightOutlined /> Infirmière spécialisée en hémodialyse à l'AUB Santé de 2009 à 2013.</p>
                         <p><DoubleRightOutlined /> Infirmière à L'Hôpital à domicile 35 de 2007 à 2009.</p>

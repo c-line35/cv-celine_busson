@@ -16,7 +16,7 @@ const Studies = () => {
                 <Panel header="Digital Systems Engineer" key="1">
                         <p><DoubleRightOutlined />Digital Systems Engineer dans une ESN:<br/><br/>
                         <li><BranchesOutlined />Mission pour une compagnie d'assurance: développement html, CSS, Java.</li>
-                        <li><BranchesOutlined />Mission pour un opératuer télécom: device management, data analyse.</li>
+                        <li><BranchesOutlined />Mission pour un opérateur télécom: device management, data analyse.</li>
                         </p>
                     </Panel>
                     <Panel header="Développeuse web" key="2">

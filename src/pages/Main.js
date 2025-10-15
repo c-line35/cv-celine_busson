@@ -56,14 +56,13 @@ const Main = () => {
         <footer> 
           <div className='contact'>
             <h4>Contact:</h4>      
-            <a href ='mailto:bussonceline@sfr.fr'><MailOutlined /> bussonceline@sfr.fr</a><br/>
+            <a href ='mailto:bussonceline512@gmail.com'><MailOutlined /> bussonceline512@gmail.com</a><br/>
             <a href="tel:+33625287060"><PhoneOutlined /> 06.25.28.70.60</a><br/>
-            <a href ="https://linkedin.com/in/céline-busson-devweb" target="blank"><LinkedinOutlined /> Profil Linkedin</a><br/>
             <a href ="https://github.com/c-line35" target="blank"><GithubOutlined /> GitHub</a>
           </div>
           <div className='upload'>
             <Button type='primary'>
-              <a href='./assets/cv-celine-busson.pdf' target="blank" alt="cv-pdf">Télécharger ce CV en PDF</a>
+              <a href='./assets/cv-celine-couepel.pdf' target="blank" alt="cv-pdf">Télécharger ce CV en PDF</a>
             </Button>
           </div>
         </footer> 

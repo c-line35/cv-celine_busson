@@ -9,7 +9,7 @@ const Header = () => {
         <div className='infos'>
             <img src='./assets/P1002089.JPG' alt='céline busson' />
             <div className='infos__content'>
-                <div><strong>Céline Busson</strong></div>
+                <div><strong>Céline Couëpel</strong></div>
                 <div>Développeuse Web</div>
             </div>
         </div>

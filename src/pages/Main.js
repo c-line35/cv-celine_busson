@@ -62,7 +62,7 @@ const Main = () => {
           </div>
           <div className='upload'>
             <Button type='primary'>
-              <a href='./assets/cv-celine-couepel.pdf' target="blank" alt="cv-pdf">Télécharger ce CV en PDF</a>
+              <a href='./assets/cv_celine_couepel.pdf' target="blank" alt="cv-pdf">Télécharger ce CV en PDF</a>
             </Button>
           </div>
         </footer> 
